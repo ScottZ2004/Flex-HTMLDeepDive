@@ -1,4 +1,4 @@
-#foto-slider{
+#fotoslider{
     display: flex;
     flex-direction: row;
     padding: 0px;
@@ -8,7 +8,7 @@
 .foto{
     width: 200px;
     height: 150px;
-    overflow: hidden;
+    
     
 }
 img{
@@ -21,5 +21,6 @@ body{
 #viewport {
     position: relative;
     height: 150px;
-    
+    overflow: hidden;
+    width: 200px;
 }
